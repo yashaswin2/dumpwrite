@@ -1,3 +1,6 @@
+import SwiftUI
+import AppKit
+
 // To disable backspace, we need to subclass NSTextView
 class NoBackspaceTextView: NSTextView {
     override func keyDown(with event: NSEvent) {
